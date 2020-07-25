@@ -1,0 +1,122 @@
+.SearchForm {
+  display: flex;
+  background-color: #e6ecef;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+}
+.SearchForm .title {
+  font-weight: 600;
+  padding: 20px 0 0 0;
+}
+.SearchForm .sub-title {
+  font-size: small;
+  padding: 10px 0;
+}
+
+.select-country {
+    width: 200px;
+    border: solid thin #dde4e9;
+}
+.form {
+    display: flex;
+}
+.search-input {
+    flex-grow: 1;
+    margin-left: 10px;
+    padding: 4px 24px 4px 4px;
+    background-image: url("./lense.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    border: solid thin #dde4e9;
+}
+.blocker {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blocker .loader {
+  width: 24px;
+  height: 24px;
+  border: dashed 2px #369;
+  border-radius: 50%;
+  background-color: #33669920;
+}
+
+.blocker .content {
+  display: flex;
+  background-color: #ffffff25;
+  padding: 4px;
+  border-radius: 8px;
+  box-shadow: 0 0 4px 0 rgba(255, 255, 255, 0.75);
+}
+
+.panel {
+  background-color: #fff;
+  width: 90%;
+  height: 90%;
+}
+.panel header {
+  padding: 10px;
+  border-bottom: solid thin #dde4e9;
+  display: flex;
+}
+.panel-title {
+  flex-grow: 1;
+}
+.close-icon {
+  cursor: pointer;
+}
+.close-icon:hover {
+  color: red;
+}
+.panel .panel-body {
+  display: flex;
+  justify-content: center;
+  padding: 30px
+}
+
+.conpany-info {
+  width: 600px;
+  font-size: small;
+}
+
+.form-item {
+  margin: 20px 0;
+}
+.form-item-label {
+  font-weight: bold;
+}
+.form-item-value {
+  padding-top: 5px;
+}
+.company-name {
+  font-size: large;
+  font-weight: bold;
+}
+.conpany-info .status {
+  text-transform: uppercase;
+  color: #70D03C;
+  font-weight: bold;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .blocker .loader {
+    animation: spinning infinite 2s linear;
+  }
+}
+
+@keyframes spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

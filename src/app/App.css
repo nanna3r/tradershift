@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: auto;
+}
+.App-header {
+  display: flex;
+  padding: 5px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+  align-items: center;
+  z-index: 1;
+  background-color: #fff;
+}
+.logo {
+  width: 28px;
+  height: 28px;
+}
+.title {
+  padding: 4px;
+  font-weight: normal;
+  font-size: medium;
+}

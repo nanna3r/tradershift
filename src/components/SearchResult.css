@@ -1,0 +1,30 @@
+.SearchResult {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+.SearchResult header{
+    padding: 4px 15px;
+    border: solid thin #dde4e9;
+    background-color: #fff;
+}
+.results {
+    border: solid thin #dde4e9;
+    background-color: #fff;
+    padding: 20px;
+    font-size: small;
+    max-height: 450px;
+    overflow: auto;
+}
+.result {
+    background-color: #F8F8F8;
+    margin: 2px;
+    padding: 4px;
+    cursor: pointer;
+}
+.result:hover {
+    background-color: #D6F2FF;
+}
+.result .name {
+    font-weight: bold;
+}
