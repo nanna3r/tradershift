@@ -1,5 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Steps to run
+
+1. open command prompt(GIT Bash)
+1. git clone https://github.com/nanna3r/tradershift.git
+1. cd tradershift
+1. npm i
+1. npm start
+
 ## Available Scripts
 
 In the project directory, you can run:
